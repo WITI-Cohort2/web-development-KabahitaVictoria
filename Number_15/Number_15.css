@@ -1,0 +1,111 @@
+body {
+  margin: auto;
+  width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+
+#one {
+  display: flex;
+  width: 47%;
+  justify-content: center;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  margin: 0.5em;
+  color: white;
+  background-color: black;
+  font-size: 1.5em;
+}
+
+#logo_letter img {
+    height: 100%;
+    margin-right: 1.2em;
+}
+
+span {
+  color: rgb(64, 173, 216);
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0;
+}
+
+#two {
+    width: 44.55%;
+    margin: 0.7em;
+    background-color: black;
+    padding: 0.5em 1em 1em 1em;
+}
+
+#two .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5.8em;
+}
+
+#img {
+    width: 10em;
+    height: 4.5em;
+}
+
+h3 {
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5.8em;
+}
+
+.bottom #img2 {
+    width: 5em;
+    height: 5em;
+}
+
+.code {
+    width: 3em;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 0.9em;
+}
+
+.con {
+    width: 1em;
+    height: 1em;
+    margin-left: 1em;
+}
+
+.location, .phone, .email {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name_and_position {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.position {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
